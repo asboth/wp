@@ -14,8 +14,6 @@ p {
     font-size: $p;
     font-optical-sizing: auto;
     font-style: normal;
-    font-variation-settings: "wght" 400;
-    font-feature-settings: "ss01", "ss01", "ss04";
     line-height: 1.7;
 }
 
@@ -24,7 +22,6 @@ h1, h2, h3, h4, h5, h6 {
     font-optical-sizing: auto;
     font-style: normal;
     color: $mo900;
-    font-variation-settings: "wght" 500, "SOFT" 0;
 }
 
 h1 {
