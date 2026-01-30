@@ -1,0 +1,34 @@
+@use "sass:map";
+//px: 480, 736, 992, 1248
+//em:  30,  46,  62,   78
+
+//576 768 992 1200 1440 
+@use 'functions' as f;
+
+$bp-min: (
+    "sm": f.rem(480),
+    "md": f.rem(736),
+    "lg": f.rem(992),
+    "xl": f.rem(1248)
+);
+
+$bp-max: (
+    "xs": f.rem(479.98),
+    "sm": f.rem(735.98),
+    "md": f.rem(991.98),
+    "lg": f.rem(1247.98)
+);
+
+@mixin bp-min($size) {
+    @media (min-width: map.get($bp-min, $size)) {
+        @content;
+    }
+}
+
+@mixin bp-max($size) {
+    @media (max-width: map.get($bp-max, $size)) {
+        @content;
+    }
+}
+
+

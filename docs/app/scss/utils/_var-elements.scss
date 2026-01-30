@@ -1,0 +1,25 @@
+/* $$$$$$$- BORDER RADIUS $$$$$$$- */
+$br0: clamp(0.0625rem, calc(0.0625rem + ((1vw - 0.3rem) * 0.0758)), 0.125rem);
+$br1: clamp(0.125rem, calc(0.125rem + ((1vw - 0.3rem) * 0.1515)), 0.25rem);
+$br2: clamp(0.1875rem, calc(0.1875rem + ((1vw - 0.3rem) * 0.2273)), 0.375rem);
+$br3: clamp(0.25rem, calc(0.25rem + ((1vw - 0.3rem) * 0.303)), 0.5rem);
+$br4: clamp(0.375rem, calc(0.375rem + ((1vw - 0.3rem) * 0.4545)), 0.75rem);
+$br5: clamp(0.5rem, calc(0.5rem + ((1vw - 0.3rem) * 0.6061)), 1rem);
+$br6: clamp(0.625rem, calc(0.625rem + ((1vw - 0.3rem) * 0.7576)), 1.25rem);
+$br7: clamp(0.75rem, calc(0.75rem + ((1vw - 0.3rem) * 0.9091)), 1.5rem);
+$br8: clamp(0.875rem, calc(0.875rem + ((1vw - 0.3rem) * 1.0606)), 1.75rem);
+$br9: clamp(1rem, calc(1rem + ((1vw - 0.3rem) * 1.2121)), 2rem);
+$br10: clamp(1.125rem, calc(1.125rem + ((1vw - 0.3rem) * 1.3636)), 2.25rem);
+
+/* $$$$$$$- SHADOWS $$$$$$$- */
+$sh0: 0 1px 4px 0 rgba(0, 0, 0, 0.04), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+$sh1: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.6);
+$sh2: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+$sh3: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+$sh4: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+$sh5: 0 4px 16px -4px rgba(0, 0, 0, 0.2);
+$sh6: 4px 4px 16px -4px rgba(0, 0, 0, 0.3);
+$sh7: 4px 8px 24px -4px rgba(0, 0, 0, 0.2);
+$sh8: 4px 8px 24px -4px rgba(0, 0, 0, 0.3);
+$sh9: 4px 8px 38px -4px rgba(0, 0, 0, 0.2);
+$sh10: 4px 8px 38px -4px rgba(0, 0, 0, 0.3);

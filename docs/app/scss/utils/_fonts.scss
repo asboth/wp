@@ -1,0 +1,17 @@
+@font-face {
+  font-display: swap;
+  font-family: wpsites;
+  font-style: normal;
+  src: url('/uplds/fonts/wpsites.woff') format('woff-variations'),
+       url('/uplds/fonts/wpsites.woff') format('woff') tech('variations');
+  src: url('/uplds/fonts/wpsites.woff2') format('woff2-variations'),
+       url('/uplds/fonts/wpsites.woff2') format('woff2') tech('variations');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: wpsites-header;
+  font-style: normal;
+  src: url('/uplds/fonts/wpsites-header.woff2') format('woff2-variations'),
+       url('/uplds/fonts/wpsites-header.woff2') format('woff2') tech('variations');
+}
